@@ -11,11 +11,8 @@ This project demonstrates:
   * Make a note of Application ID
   * Create and make a note of Secret
   * Adjust Application Permissions at "Required permissions -> Windows Azure Active Directory"
+  * You might need 2 ReplyUrls set, one as a homepage, f.e., "https://localhost:44360/" and other "https://localhost:44360/signin-oidc"
 2. Download this project and adjust settings with your values
 3. Let the user from external Azure Directory login to app (reason it's multi-tenant)
 4. User can provide consent with admin account
 5. Your app can do calls to user's Azure AD through AD Graph 
-
-Admin consent URL:
-
-https://login.microsoftonline.com/{TenantID}/oauth2/authorize?client_id={AppClientID}&response_type=code&redirect_uri={AppRedirectURL}&nonce=1234&resource=https://graph.windows.net&prompt=admin_consent
