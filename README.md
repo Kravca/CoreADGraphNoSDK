@@ -10,7 +10,7 @@ This project demonstrates:
   * Set it to be multi-tenant
   * Make a note of Application ID
   * Create and make a note of Secret
-  * Adjust Application Permissions at "Required permissions -> Windows Azure Active Directory", remove any delegated permisions and any other API's, if present
+  * Adjust Application Permissions at "Required permissions -> Windows Azure Active Directory"
 2. Download this project and adjust settings with your values
 3. Let the user from external Azure Directory login to app (reason it's multi-tenant)
 4. User can provide consent with admin account
